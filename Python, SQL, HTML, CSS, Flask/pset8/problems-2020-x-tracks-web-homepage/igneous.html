@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Igneous Rock</title>
+        <script src="myScript.js"></script>
+    </head>
+
+    <body id="body">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+            <a class="navbar-brand" href="index.html">Type of Rocks</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="igneous.html">Igneous Rock</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sedimentary.html">Sedimentary Rock</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="metamorphic.html">Metamorphic Rock</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="container">
+            <article id="article">
+                <section>
+                    <h2>Igneous Rock</h2>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button class="btn btn-secondary" type="button" onclick="darkMode()">Dark Mode</button>
+                        <button class="btn btn-secondary" type="button" onclick="lightMode()">Light Mode</button>
+                    </div>
+                    <img src="gabro.jpg" alt="gabro">
+                    <p>Igneous rock (derived from the Latin word igneus, meaning of fire, from ignis meaning fire) is formed through the cooling and solidification of magma or lava. This magma may be derived from partial melts of pre-existing rocks in either a planet's mantle or crust. Typically, the melting of rocks is caused by one or more of three processes: an increase in temperature, a decrease in pressure, or a change in composition.</p>
+                    <p>Igneous rocks are divided into two main categories:</p>
+                    <ul>
+                        <li>Plutonic or intrusive rocks result when magma cools and crystallizes slowly within the Earth's crust. A common example of this type is granite.</li>
+                        <li>Volcanic or extrusive rocks result from magma reaching the surface either as lava or fragmental ejecta, forming minerals such as pumice or basalt.</li>
+                    </ul>
+                    <p>The chemical abundance and the rate of cooling of magma typically forms a sequence known as Bowen's reaction series. Most major igneous rocks are found along this scale.</p>
+                    <p>About 65% of the Earth's crust by volume consists of igneous rocks, making it the most plentiful category. Of these, 66% are basalt and gabbro, 16% are granite, and 17% granodiorite and diorite. Only 0.6% are syenite and 0.3% are ultramafic. The oceanic crust is 99% basalt, which is an igneous rock of mafic composition. Granite and similar rocks, known as granitoids, dominate the continental crust.</p>
+                </section>
+            </article>
+        </main>
+    </body>
+
+    <footer class="container-fluid">
+        <p id="footer">Source : <a href ="https://en.wikipedia.org/wiki/Rock_(geology)">Wikipedia</a></p>
+    </footer>
+</html>
